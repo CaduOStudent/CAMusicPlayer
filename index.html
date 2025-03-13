@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="module" src="library.js"></script>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="audio-player">
+        <h2>Track List</h2>
+        <ul id="track-list"></ul>
+        <div class="player">
+            <p id="current-track">No track selected</p>
+            <audio id="audio" controls></audio>
+            <div class="progress-bar" id="progress-bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

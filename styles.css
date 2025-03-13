@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .audio-player {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #track-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #track-list li {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+  }
+  
+  #track-list li:hover {
+    background-color: #eee;
+  }
+  
+  .player {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  #progress {
+    background-color: #76c7c0;
+    height: 10px;
+    width: 0;
+  }
+  

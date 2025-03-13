@@ -1,0 +1,25 @@
+{
+  "name": "musicplayer",
+  "version": "1.0.0",
+  "description": "CA1CrossDev",
+  "keywords": [
+    "CA1",
+    "MusicPlayer"
+  ],
+  "homepage": "https://github.com/CaduOStudent/CAMusicPlayer#readme",
+  "bugs": {
+    "url": "https://github.com/CaduOStudent/CAMusicPlayer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaduOStudent/CAMusicPlayer.git"
+  },
+  "license": "MIT",
+  "author": "Carlos Eduardo Menezes",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
