@@ -1,7 +1,10 @@
 const trackList = [
-    { name: 'Track 1', file: 'track1.mp3' },
-    { name: 'Track 2', file: 'track2.mp3' },
-    { name: 'Track 3', file: 'track3.mp3' }
+    { name: 'Alone-Color Out', file: 'C:\Users\Cadu\Desktop\CCT\Year 2\Cross-Platform Development\MusicPlayer\tracks\Alone_-_Color_Out.mp3' },
+    { name: 'Host-Color Out', file: 'C:\Users\Cadu\Desktop\CCT\Year 2\Cross-Platform Development\MusicPlayer\tracks\Color_Out_-_Host.mp3' },
+    { name: 'Do I - Leeona', file: 'C:\Users\Cadu\Desktop\CCT\Year 2\Cross-Platform Development\MusicPlayer\tracks\LEEONA_-_LEEONA_-_Do_I.mp3' },
+    { name: 'No Rest or Endless Rest - Lisofv', file: 'C:\Users\Cadu\Desktop\CCT\Year 2\Cross-Platform Development\MusicPlayer\tracks\No_Rest_Or_Endless_Rest_-_Lisofv.mp3' },
+    { name: 'Tab - Sake Bomb', file: 'C:\Users\Cadu\Desktop\CCT\Year 2\Cross-Platform Development\MusicPlayer\tracks\Tab_-_Sake_Bomb_(feat._Jade_Gritty_&amp;_Aurc).mp3' },
+    { name: 'Zaranka - Dust', file: 'C:\Users\Cadu\Desktop\CCT\Year 2\Cross-Platform Development\MusicPlayer\tracks\Zaranka_-_Dust_(feat._Maliander).mp3' }
   ];
   
   const trackListElement = document.getElementById('track-list');
